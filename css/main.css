@@ -11,7 +11,7 @@ html {
 
 section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, maximum(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .hover-box {
@@ -23,7 +23,7 @@ section {
 
 .hover-box h2 {
   position: absolute;
-  bottom: 0;
+  bottom: -4em;
   width: 100%;
   padding: 1rem;
   margin: 0;
