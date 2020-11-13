@@ -19,8 +19,6 @@ section {
   overflow: hidden;
   text-decoration: none;
   color: #fff;
-  margin: 0;
-  padding: 0;
 }
 
 .hover-box h2 {
@@ -44,6 +42,7 @@ section {
   filter: grayscale(100%);
   transition: all .2s linear;
   width: 100%;
+  display: block;
 }
 
 .hover-box:hover img,
